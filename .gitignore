@@ -40,5 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# the json files 
-/data
+# personal data files (but include examples)
+/data/*.json
+!/data/*.json.example

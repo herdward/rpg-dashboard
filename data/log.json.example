@@ -1,0 +1,50 @@
+[
+  {
+    "domain": "Coding",
+    "task": "Completed React tutorial",
+    "xp": 50,
+    "date": "2024-01-10"
+  },
+  {
+    "domain": "Strength",
+    "task": "Bench press workout",
+    "xp": 30,
+    "date": "2024-01-10"
+  },
+  {
+    "domain": "Cardio",
+    "task": "5K run",
+    "xp": 40,
+    "date": "2024-01-11"
+  },
+  {
+    "domain": "Coding",
+    "task": "Built API endpoint",
+    "xp": 75,
+    "date": "2024-01-11"
+  },
+  {
+    "domain": "Strength",
+    "task": "Deadlift 300 lbs",
+    "xp": 150,
+    "date": "2024-01-12"
+  },
+  {
+    "domain": "Cooking",
+    "task": "Made homemade pasta",
+    "xp": 35,
+    "date": "2024-01-12"
+  },
+  {
+    "domain": "Coding",
+    "task": "Deployed full-stack app",
+    "xp": 200,
+    "date": "2024-01-13"
+  },
+  {
+    "domain": "Reading",
+    "task": "Finished tech book",
+    "xp": 80,
+    "date": "2024-01-13"
+  }
+]

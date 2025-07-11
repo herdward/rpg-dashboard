@@ -6,10 +6,59 @@ A visually impressive personal RPG dashboard that tracks XP and progress across 
 
 ## Features
 
-- **Dashboard** (`/`) - View XP progress bars for each domain with glowing animations
+- **Dashboard** (`/`) - View XP progress bars for each domain with glowing animations and skill radar chart
 - **Log XP** (`/log`) - Add new XP entries with a sleek form interface
 - **Quests** (`/quests`) - Track and complete quests to earn XP automatically
+- **Quest Management** - Create, complete, undo, and archive quests
+- **Data Visualization** - Area charts for XP progression and radar charts for skill levels
+- **Streak Tracking** - Monitor daily consistency across domains
 - **Dark Theme** - Cyberpunk-inspired design with glassmorphism effects
+
+## Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/rpg-dashboard.git
+   cd rpg-dashboard
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Setup sample data:**
+   ```bash
+   ./setup.sh
+   ```
+   Or manually copy the example files:
+   ```bash
+   cp data/log.json.example data/log.json
+   cp data/quests.json.example data/quests.json
+   cp data/streaks.json.example data/streaks.json
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser:**
+   Visit `http://localhost:3000` to see your RPG dashboard!
+
+## Data Storage
+
+- Your personal data is stored in JSON files in the `/data` directory
+- These files are gitignored to keep your personal progress private
+- The app includes example data files (`.json.example`) to get you started
+- All data is stored locally - no external database required
+
+## Tech Stack
+
+- **Next.js 15** - React framework with TypeScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Recharts** - Data visualization library
+- **File-based storage** - Simple JSON files for data persistence
 - **Responsive Design** - Works on desktop, tablet, and mobile devices
 
 ## Tech Stack

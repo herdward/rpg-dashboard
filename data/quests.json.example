@@ -1,0 +1,45 @@
+[
+  {
+    "id": "1",
+    "domain": "Coding",
+    "description": "Complete 5 LeetCode problems",
+    "xp": 100,
+    "completed": false
+  },
+  {
+    "id": "2",
+    "domain": "Strength",
+    "description": "Deadlift 200 lbs",
+    "xp": 150,
+    "completed": true
+  },
+  {
+    "id": "3",
+    "domain": "Cardio",
+    "description": "Run 10K in under 45 minutes",
+    "xp": 120,
+    "completed": false
+  },
+  {
+    "id": "4",
+    "domain": "Coding",
+    "description": "Deploy a full-stack app",
+    "xp": 200,
+    "completed": true
+  },
+  {
+    "id": "5",
+    "domain": "Reading",
+    "description": "Read 'Clean Code' book",
+    "xp": 80,
+    "completed": false
+  },
+  {
+    "id": "6",
+    "domain": "Cooking",
+    "description": "Learn to make homemade pizza",
+    "xp": 60,
+    "completed": false,
+    "archived": true
+  }
+]
