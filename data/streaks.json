@@ -1,0 +1,17 @@
+{
+  "Coding": {
+    "currentStreak": 5,
+    "longestStreak": 10,
+    "lastLogDate": "2024-07-11"
+  },
+  "Strength": {
+    "currentStreak": 1,
+    "longestStreak": 3,
+    "lastLogDate": "2025-07-11"
+  },
+  "Cardio": {
+    "currentStreak": 1,
+    "longestStreak": 1,
+    "lastLogDate": "2025-07-11"
+  }
+}

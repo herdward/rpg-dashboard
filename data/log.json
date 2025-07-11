@@ -1,0 +1,26 @@
+[
+  {
+    "domain": "Coding",
+    "task": "Completed React tutorial",
+    "xp": 50,
+    "date": "2024-01-15"
+  },
+  {
+    "domain": "Strength",
+    "task": "Bench press workout",
+    "xp": 30,
+    "date": "2024-01-15"
+  },
+  {
+    "domain": "Cardio",
+    "task": "5K run",
+    "xp": 40,
+    "date": "2024-01-14"
+  },
+  {
+    "domain": "Coding",
+    "task": "Built API endpoint",
+    "xp": 75,
+    "date": "2024-01-14"
+  }
+]

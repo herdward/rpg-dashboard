@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RPG Dashboard
+
+A visually impressive personal RPG dashboard that tracks XP and progress across real-life domains (coding, strength, cardio, etc.) with a video game aesthetic.
+
+## Features
+
+- **Dashboard** (`/`) - View XP progress bars for each domain with glowing animations
+- **Log XP** (`/log`) - Add new XP entries with a sleek form interface
+- **Quests** (`/quests`) - Track and complete quests to earn XP automatically
+- **Dark Theme** - Cyberpunk-inspired design with glassmorphism effects
+- **Responsive Design** - Works on desktop, tablet, and mobile devices
+
+## Tech Stack
+
+- **Next.js 15** with App Router
+- **TypeScript** for type safety
+- **Tailwind CSS** for styling
+- **Custom animations** and glowing effects
+- **File-based data storage** (JSON files)
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+2. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+3. **Open** [http://localhost:3000](http://localhost:3000) in your browser
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## File Structure
+
+```
+rpg-dashboard/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx           # Dashboard page
+│   │   ├── log/page.tsx       # XP logging page
+│   │   ├── quests/page.tsx    # Quests page
+│   │   └── api/               # API routes
+│   ├── components/
+│   │   ├── XPBar.tsx          # Glowing XP progress bar
+│   │   ├── LogForm.tsx        # XP form component
+│   │   └── QuestCard.tsx      # Quest card component
+│   └── lib/
+│       └── xpUtils.ts         # Utility functions
+├── data/
+│   ├── log.json              # XP log entries
+│   └── quests.json           # Quest definitions
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## XP System
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Level Formula**: `level = floor(totalXP / 100)`
+- **Progress**: `progress = totalXP % 100`
+- **Domains**: Coding, Strength, Cardio, and custom domains
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+1. **View Dashboard** - See your current XP and levels for each domain
+2. **Log XP** - Add new achievements and earn experience points
+3. **Complete Quests** - Finish predefined challenges for bonus XP
+4. **Track Progress** - Watch your levels grow with animated progress bars
 
-To learn more about Next.js, take a look at the following resources:
+## Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Add new domains** by logging XP or adding quests
+2. **Modify quest rewards** in `data/quests.json`
+3. **Adjust styling** in `src/app/globals.css`
+4. **Change XP formula** in `src/lib/xpUtils.ts`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Scripts
 
-## Deploy on Vercel
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Enjoy tracking your real-life progress like a video game! 🎮✨
