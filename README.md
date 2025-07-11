@@ -1,5 +1,7 @@
 # RPG Dashboard
 
+Made with assistance with Claude, to get something up and running for personal usage.
+
 A visually impressive personal RPG dashboard that tracks XP and progress across real-life domains (coding, strength, cardio, etc.) with a video game aesthetic.
 
 ## Features
