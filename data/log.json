@@ -3,24 +3,30 @@
     "domain": "Coding",
     "task": "Completed React tutorial",
     "xp": 50,
-    "date": "2024-01-15"
+    "date": "2025-07-10"
   },
   {
     "domain": "Strength",
     "task": "Bench press workout",
     "xp": 30,
-    "date": "2024-01-15"
+    "date": "2025-07-10"
   },
   {
     "domain": "Cardio",
     "task": "5K run",
     "xp": 40,
-    "date": "2024-01-14"
+    "date": "2025-07-10"
   },
   {
     "domain": "Coding",
     "task": "Built API endpoint",
     "xp": 75,
-    "date": "2024-01-14"
+    "date": "2025-07-10"
+  },
+  {
+    "domain": "Strength",
+    "task": "Deadlift 200 lbs",
+    "xp": 150,
+    "date": "2025-07-10"
   }
 ]
