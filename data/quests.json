@@ -41,5 +41,12 @@
     "xp": 50,
     "id": "1752205632718",
     "completed": false
+  },
+  {
+    "domain": "Coding",
+    "description": "Personal RAG website attracted\n  client inquiry - full-stack showcase\n  worked!\"",
+    "xp": 150,
+    "id": "1752213818521",
+    "completed": true
   }
 ]
